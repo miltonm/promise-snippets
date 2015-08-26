@@ -17,3 +17,6 @@ var dynamoDbConfig = {
 };
 var dynamoDb = new AWS.DynamoDB(dynamoDbConfig);
 Promise.promisifyAll(Object.getPrototypeOf(dynamoDb));
+
+// https://www.npmjs.com/package/aws-promised
+// https://github.com/CascadeEnergy/aws-promised
