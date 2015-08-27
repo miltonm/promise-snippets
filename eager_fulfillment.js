@@ -4,11 +4,11 @@
 // Wait for 15 seconds. Now time is t+15.
 // Do a then on timer promise 
 // When will the then get invoked at t+15 or t+15+10 ? 
-// Ans: t+15+10
+// Ans: t+15
 
 var Promise = require('bluebird');
 var _ = require('lodash');
-var f = function() { return Promise.delay(5000); }
+var p = Promise.delay(5000);
 var t1,t2,t3; t1= _.now(); 
 setTimeout(
   function() { 
