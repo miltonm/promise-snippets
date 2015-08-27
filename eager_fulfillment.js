@@ -12,7 +12,7 @@ var p = Promise.delay(5000);
 var t1,t2,t3; t1= _.now(); 
 setTimeout(
   function() { 
-    f().then(function() {
+    p.then(function() {
       t3 = _.now();
     }); 
     t2 = _.now()
