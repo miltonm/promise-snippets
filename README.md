@@ -1,4 +1,4 @@
-# promise-snippets
+# Javascript promise snippets
 Promise Snippets
 
 Resources:
