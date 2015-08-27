@@ -19,4 +19,4 @@ setTimeout(
   }, 
   5000);
 console.log(t2 - t1);
-console.log(t3 - t1);
+console.log(t3 - t2);
